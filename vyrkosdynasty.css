@@ -9,8 +9,8 @@ h1 {
 
 div.parent {
     position: absolute;
-    top: 15px;
-    left: 1100px;
+    top: 10px;
+    left: 1000px;
 }
 
 div.titleImage {
@@ -23,7 +23,7 @@ div.banner {
     position: relative;
     top: 10px;
     left: 130px;
-    scale: 80%;
+    scale: 60%;
 }
 
 h2 {
