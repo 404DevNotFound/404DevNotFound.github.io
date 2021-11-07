@@ -7,7 +7,24 @@ h1 {
     font-size: 45px;
 }
 
+div.parent {
+    position: absolute;
+    top: 15px;
+    left: 1100px;
+}
 
+div.titleImage {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+div.banner {
+    position: relative;
+    top: 10px;
+    left: 130px;
+    scale: 80%;
+}
 
 h2 {
     color: black;
