@@ -7,25 +7,21 @@ h1 {
     font-size: 45px;
 }
 
-div.parent {
+div.content {
+    position: relative;
+}
+
+img.bannerRight {
     position: absolute;
-    top: 15px;
-    left: 1350px;
-}
-
-div.titleImage {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-div.banner {
-    position: relative;
     top: 10px;
-    left: 130px;
-    scale: 80%;
+    left: 125px;
 }
 
+img.bannerLeft {
+    position: absolute;
+    top: 10px;
+    right: 125px;
+}
 h2 {
     color: black;
     text-align: center;
@@ -142,3 +138,7 @@ a {
 
 }
 
+div.core {
+    position: absolute;
+    top: 300px;
+}
