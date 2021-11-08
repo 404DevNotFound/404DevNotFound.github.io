@@ -245,8 +245,11 @@ function changeRow(_pos, _gen, _army, _faction, _battle, _victory, _minorVictory
     changeValue(_pos, 'minorVictory', _minorVictory);
     changeValue(_pos, 'loss', _loss);
     changeValue(_pos, 'armyPts', _armyPt);
-    changeValue(_pos, 'glory', _gloryPt);
-
+    if(_gloryPt == 0.1) {
+        changeValue(_pos, 'glory', 0);
+    } else {
+        changeValue(_pos, 'glory', _gloryPt);
+    }
 }
 
 
